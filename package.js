@@ -18,22 +18,8 @@ Package.onUse(function (api) {
   api.addFiles('lib/auth.js', 'server');
   api.addFiles('lib/iron-router-error-to-response.js', 'server');
   api.addFiles('lib/route.js', 'server');
-  api.addFiles('lib/rest.js', 'server');
+  api.addFiles('index.js', 'server');
 
   // Exports
-  api.export('Restfine', 'server');
-});
-
-
-Package.onTest(function (api) {
-  // Meteor dependencies
-  api.use('practicalmeteor:munit');
-  api.use('nimble:restfine');
-  api.use('http');
-  api.use('underscore');
-  api.use('accounts-base');
-  api.use('accounts-password');
-  api.use('mongo');
-
-  api.addFiles('lib/route.js', 'server');
+  api.export('restfine', 'server');
 });

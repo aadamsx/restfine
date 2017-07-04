@@ -1,0 +1,22 @@
+{
+  "name": "restfine",
+  "version": "1.0.0",
+  "description": "REST for Meteor",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadamsx/restfine.git"
+  },
+  "author": "Aaron Adams <aadams99@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadamsx/restfine/issues"
+  },
+  "homepage": "https://github.com/aadamsx/restfine#readme"
+}
