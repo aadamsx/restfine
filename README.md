@@ -2,7 +2,7 @@
 
 #### Formerly Restivus
 
-Restfine makes building REST APIs in Meteor 0.9.0+ easier than ever before! The package is inspired
+Restfine makes building REST APIs in Meteor 1.0.0+ easier than ever before! The package is inspired
 by [RestStop2][reststop2-docs] and [Collection API](https://github.com/crazytoad/meteor-collectionapi),
 and is built on top of [Simple JSON Routes][json-routes] to provide:
 - A simple interface for creating REST APIs
@@ -68,7 +68,7 @@ and is built on top of [Simple JSON Routes][json-routes] to provide:
 
 You can install Restfine using Meteor's package manager:
 ```bash
-> meteor add nimble:Restfine
+> meteor add aadamsx:restfine
 ```
 
 ## Quick Start
